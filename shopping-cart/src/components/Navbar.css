@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarLinks {
+    display: flex;
+    flex-direction: row;
+}
