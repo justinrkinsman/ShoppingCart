@@ -5,10 +5,10 @@ export function Navbar() {
     return (
     <div className='navbar'>
         <p>Bloodbath Records</p>
-        <div className="navbarLinks">
-            <p>Home</p>
-            <p>Shop</p>
-        </div>
+        <ul className='navbarLinks'>
+            <li>Home</li>
+            <li>Shop</li>
+        </ul>
     </div>
     )
 }
