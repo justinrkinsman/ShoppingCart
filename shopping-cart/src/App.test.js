@@ -7,15 +7,15 @@ import userEvent from "@testing-library/user-event"
 describe("Navbar Links", () => {
   it('Renders Homepage', () => {
     const { getByText } = render(<a href="https://test.com">Home</a>);
-    const link = getByText('Home')
+    const link = screen.getByText('Home')
     userEvent.click(link)
-    expect(screen.getByText("Home").closest('a')).toHaveAttribute('href', 'https://test.com')
+    expect(screen.getByText("Home")).toHaveAttribute('href', 'https://test.com')
   })
 
   it('Renders Shop Page', () => {
     const { getByText } = render(<a href="http://test.com/shop">Shop</a>)
-    const link = getByText('Shop')
+    const link = screen.getByText('Shop')
     userEvent.click(link)
-    expect(screen.getByText("Shop").closest('a')).toHaveAttribute('href', 'http://test.com/shop')
+    expect(screen.getByText("Shop")).toHaveAttribute('href', 'http://test.com/shop')
   })
 })
