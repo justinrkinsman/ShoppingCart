@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
-import { Homepage } from './components/Homepage';
+import { getByText, render, screen } from '@testing-library/react';
 import React from "react"
 import "@testing-library/jest-dom"
 import userEvent from "@testing-library/user-event"
+import { Sidebar } from "./components/shopPageComponents/Sidebar"
 
 describe("Navbar Links", () => {
   it('Renders Homepage', () => {
@@ -18,4 +18,9 @@ describe("Navbar Links", () => {
     userEvent.click(link)
     expect(screen.getByText("Shop")).toHaveAttribute('href', 'http://test.com/shop')
   })
+})
+
+test('Renders sidebar', () => {
+  const { getByText } = render(<Sidebar/>)
+  expect(screen.getByText('Placeholder for cart quantity')).toBeInTheDocument()
 })
