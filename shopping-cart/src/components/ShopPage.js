@@ -1,6 +1,6 @@
-import { Navbar } from "./components/Navbar"
+import { Navbar } from "./Navbar"
 
-function Shop() {
+export function Shop() {
     return (
         <>
             <Navbar />
