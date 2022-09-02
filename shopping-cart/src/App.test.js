@@ -21,6 +21,6 @@ describe("Navbar Links", () => {
 })
 
 test('Renders sidebar', () => {
-  const { getByText } = render(<Sidebar/>)
+  render(<Sidebar/>)
   expect(screen.getByText('Placeholder for cart quantity')).toBeInTheDocument()
 })
