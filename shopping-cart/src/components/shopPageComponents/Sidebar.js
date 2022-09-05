@@ -7,7 +7,7 @@ export const Sidebar = () => {
         <>
             <div className='cart'>
                 <img src={Cart} alt='Display of cart' className="cartImage"></img>
-                <p>Placeholder for cart quantity</p>
+                <p>Items: {}</p>
             </div>
         </>
     )

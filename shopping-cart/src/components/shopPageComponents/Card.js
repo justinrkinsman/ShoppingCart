@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.css'
+import { addToCart } from './AddToCart'
 
 export function Card(props) {
     return(
@@ -15,9 +16,4 @@ export function Card(props) {
             <button onClick={addToCart}>Add to Cart</button>
         </div>
     )
-    function addToCart() {
-        let cart = 0
-        let cartTotal = cart++
-        console.log(cartTotal)
-    }
 }

@@ -11,7 +11,7 @@ export function Navbar() {
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/shop'>Shop</Link></li>
         </ul>
-        <img src={Cart} alt="cart" class="cartImage"></img>
+        <img src={Cart} alt="cart" className="cartImage"></img>
     </div>
     )
 }
