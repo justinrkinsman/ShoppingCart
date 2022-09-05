@@ -1,8 +1,5 @@
 import React from 'react'
 import './Card.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Shop } from "../ShopPage"
-import { render } from '@testing-library/react'
 
 export function Card(props) {
     return(
