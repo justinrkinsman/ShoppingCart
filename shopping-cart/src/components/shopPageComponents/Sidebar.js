@@ -2,12 +2,12 @@ import React from 'react'
 import './Sidebar.css'
 import Cart from '../../albums/cart-outline.jpg'
 
-export const Sidebar = () => {
+export const Sidebar = (props) => {
     return (
         <>
             <div className='cart'>
                 <img src={Cart} alt='Display of cart' className="cartImage"></img>
-                <p>Items: {}</p>
+                <p id="items">0</p>
             </div>
         </>
     )

@@ -9,9 +9,7 @@ export function Card(props) {
             <h3>{props.band}</h3>
             <p>{props.title}</p>
             <div className="quantity">
-                <button>-</button>
-                <input type='text'></input>
-                <button>+</button>
+                <input type='number' defaultValue='0' min='0' max='10' id='cartQuantity'></input>
             </div>
             <button onClick={addToCart}>Add to Cart</button>
         </div>
