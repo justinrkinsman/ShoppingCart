@@ -20,16 +20,16 @@ export function Shop() {
             <div className="shopContent">
                 <Sidebar />
                 <div className="cards">
-                    <Card source={Among} title='Among the Living' band='Anthrax'/>
-                    <Card source={Alice} title='Alice in Hell' band='Annihilator'/>
-                    <Card source={Bleed} title='Bleed the Future' band='Archspire'/>
-                    <Card source={Severed} title='Severed Survival' band='Autopsy'/>
-                    <Card source={Filosofem} title='Filosofem' band='Burzum'/>
-                    <Card source={Torture} title='Torture' band='Cannibal Corpse'/>
-                    <Card source={Transilvanian} title='Transilvanian Hunger' band='Darkthrone'/>
-                    <Card source={TSOP} title='The Sound of Perseverance' band='Death'/>
-                    <Card source={Eclipse} title='In The Nightside Eclipse' band='Emperor'/>
-                    <Card source={Lightning} title='Ride the Lightning' band='Metallica'/>
+                    <Card source={Among} title='Among the Living' band='Anthrax' page='Add to Cart'/>
+                    <Card source={Alice} title='Alice in Hell' band='Annihilator' page='Add to Cart'/>
+                    <Card source={Bleed} title='Bleed the Future' band='Archspire' page='Add to Cart'/>
+                    <Card source={Severed} title='Severed Survival' band='Autopsy' page='Add to Cart'/>
+                    <Card source={Filosofem} title='Filosofem' band='Burzum' page='Add to Cart'/>
+                    <Card source={Torture} title='Torture' band='Cannibal Corpse' page='Add to Cart'/>
+                    <Card source={Transilvanian} title='Transilvanian Hunger' band='Darkthrone' page='Add to Cart'/>
+                    <Card source={TSOP} title='The Sound of Perseverance' band='Death' page='Add to Cart'/>
+                    <Card source={Eclipse} title='In The Nightside Eclipse' band='Emperor' page='Add to Cart'/>
+                    <Card source={Lightning} title='Ride the Lightning' band='Metallica' page='Add to Cart'/>
                 </div>
             </div>
         </>

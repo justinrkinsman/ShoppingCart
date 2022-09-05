@@ -15,3 +15,8 @@
     flex-direction: row;
     list-style: none;
 }
+
+.cartImage {
+    height: 20px;
+    width: auto
+}

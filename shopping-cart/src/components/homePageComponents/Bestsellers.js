@@ -10,11 +10,11 @@ export function Bestsellers() {
     return(
         <div className="bestsellers">
             <p>Bestsellers</p>
-            <Card source={Ride} title='Ride the Lightning' band='Metallica'/>
-            <Card source={TSOP} title='The Sound of Perseverance' band='Death'/>
-            <Card source={Among} title='Among the Living' band='Anthrax'/>
-            <Card source={Alice} title='Alice in Hell' band='Annihilator'/>
-            <Card source={Torture} title='Torture' band='Cannibal Corpse'/>
+            <Card source={Ride} title='Ride the Lightning' band='Metallica' page='Go to Store'/>
+            <Card source={TSOP} title='The Sound of Perseverance' band='Death' page='Go to Store'/>
+            <Card source={Among} title='Among the Living' band='Anthrax' page='Go to Store'/>
+            <Card source={Alice} title='Alice in Hell' band='Annihilator' page='Go to Store'/>
+            <Card source={Torture} title='Torture' band='Cannibal Corpse' page='Go to Store'/>
         </div>
     )
 }
