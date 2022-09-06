@@ -10,7 +10,7 @@ import './Bestsellers.css'
 export function Bestsellers() {
     return(
         <div className="bestsellers">
-            <p>Bestsellers</p>
+            <h3 className="bestsellersTitle">Bestsellers</h3>
             <div className="albums">
                 <Card source={Ride} title='Ride the Lightning' band='Metallica' page='Go to Store'/>
                 <Card source={TSOP} title='The Sound of Perseverance' band='Death' page='Go to Store'/>
