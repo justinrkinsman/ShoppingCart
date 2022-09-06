@@ -4,7 +4,7 @@ import { Shop } from "./components/ShopPage"
 
 export const RouteSwitch = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/'>
             <Routes>
                 <Route path="/" element={<Homepage />} />
                 <Route path="/shop" element={<Shop />} />
