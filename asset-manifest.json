@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ShoppingCart/static/css/main.ab9fd9f3.css",
+    "main.js": "/ShoppingCart/static/js/main.6581009d.js",
+    "static/media/BleedTheFuture.jpg": "/ShoppingCart/static/media/BleedTheFuture.95ac908e1343aa28b1e1.jpg",
+    "static/media/Filosofem.jpg": "/ShoppingCart/static/media/Filosofem.cb4874c2e7eaa21cf919.jpg",
+    "static/media/MetalMania-Regular.ttf": "/ShoppingCart/static/media/MetalMania-Regular.3b5d2a882c4cfbed7ba5.ttf",
+    "static/media/RideTheLightning.jpg": "/ShoppingCart/static/media/RideTheLightning.96eca127f62ecdc0fed5.jpg",
+    "static/media/Torture.jpg": "/ShoppingCart/static/media/Torture.c8cbeb40692bbb7e2cb7.jpg",
+    "static/media/AmongTheLiving.jpg": "/ShoppingCart/static/media/AmongTheLiving.ffcfda2733f6cf6f5476.jpg",
+    "static/media/Eclipse.jpg": "/ShoppingCart/static/media/Eclipse.612a803932daa26aac24.jpg",
+    "static/media/severedSurvival.jpg": "/ShoppingCart/static/media/severedSurvival.cfdce52cbf69c5eb6955.jpg",
+    "static/media/Transilvanian.jpg": "/ShoppingCart/static/media/Transilvanian.a8c3e3e0a270201515ba.jpg",
+    "static/media/AliceInHell.jpg": "/ShoppingCart/static/media/AliceInHell.f2262d5df5f2c26f22ef.jpg",
+    "static/media/TSOP.jpg": "/ShoppingCart/static/media/TSOP.3ced2cc94ae9d6cfe604.jpg",
+    "index.html": "/ShoppingCart/index.html",
+    "main.ab9fd9f3.css.map": "/ShoppingCart/static/css/main.ab9fd9f3.css.map",
+    "main.6581009d.js.map": "/ShoppingCart/static/js/main.6581009d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab9fd9f3.css",
+    "static/js/main.6581009d.js"
+  ]
+}
