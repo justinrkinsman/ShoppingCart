@@ -2,7 +2,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: grey;
+    background-color: rgb(196, 193, 193);
+    width: 10vw;
 }
 
 .cartImage {
