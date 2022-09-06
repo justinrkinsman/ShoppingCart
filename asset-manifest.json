@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShoppingCart/static/css/main.ab9fd9f3.css",
-    "main.js": "/ShoppingCart/static/js/main.352b122d.js",
+    "main.js": "/ShoppingCart/static/js/main.6581009d.js",
     "static/media/BleedTheFuture.jpg": "/ShoppingCart/static/media/BleedTheFuture.95ac908e1343aa28b1e1.jpg",
     "static/media/Filosofem.jpg": "/ShoppingCart/static/media/Filosofem.cb4874c2e7eaa21cf919.jpg",
     "static/media/MetalMania-Regular.ttf": "/ShoppingCart/static/media/MetalMania-Regular.3b5d2a882c4cfbed7ba5.ttf",
@@ -15,10 +15,10 @@
     "static/media/TSOP.jpg": "/ShoppingCart/static/media/TSOP.3ced2cc94ae9d6cfe604.jpg",
     "index.html": "/ShoppingCart/index.html",
     "main.ab9fd9f3.css.map": "/ShoppingCart/static/css/main.ab9fd9f3.css.map",
-    "main.352b122d.js.map": "/ShoppingCart/static/js/main.352b122d.js.map"
+    "main.6581009d.js.map": "/ShoppingCart/static/js/main.6581009d.js.map"
   },
   "entrypoints": [
     "static/css/main.ab9fd9f3.css",
-    "static/js/main.352b122d.js"
+    "static/js/main.6581009d.js"
   ]
 }
