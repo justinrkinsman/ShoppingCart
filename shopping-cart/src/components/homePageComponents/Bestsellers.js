@@ -16,7 +16,6 @@ export function Bestsellers() {
                 <Card source={TSOP} title='The Sound of Perseverance' band='Death' page='Go to Store'/>
                 <Card source={Among} title='Among the Living' band='Anthrax' page='Go to Store'/>
                 <Card source={Alice} title='Alice in Hell' band='Annihilator' page='Go to Store'/>
-                <Card source={Torture} title='Torture' band='Cannibal Corpse' page='Go to Store'/>
             </div>
         </div>
     )
