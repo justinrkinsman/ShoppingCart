@@ -7,7 +7,7 @@ export const Sidebar = (props) => {
         <>
             <div className='cart'>
                 <img src={Cart} alt='Display of cart' className="cartImage"></img>
-                <p id="items">0</p>
+                <p id="cartQuantity">0</p>
             </div>
         </>
     )

@@ -8,10 +8,10 @@ export function Card(props) {
             <img src={props.source} alt={props.title}></img>
             <h3>{props.band}</h3>
             <p>{props.title}</p>
-            <div className="quantity">
-                <input type='number' defaultValue='0' min='0' max='10' id='cartQuantity'></input>
+            <div>
+                <input type='number' defaultValue='0' min='0' max='10' id={`items${props.index}`}></input>
             </div>
-            <button onClick={addToCart}>Add to Cart</button>
+            <button id={`addToCart${props.index}`} onClick={addToCart}>Add to Cart</button>
         </div>
     )
 }
